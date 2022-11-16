@@ -19,7 +19,7 @@
   margin-bottom: 50px;
 }
 
-.blog-post_info{
+.blog-post_info {
   transform: translateX(-3rem);
 }
 
@@ -126,6 +126,9 @@
   .blog-post {
     padding: 2.5rem;
     flex-direction: column;
+  }
+  .blog-post_info {
+    transform: none;
   }
 
   .blog-post_img {
