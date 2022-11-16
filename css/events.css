@@ -116,14 +116,26 @@
   }
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 467px) {
   .blog-post {
     max-width: 70rem;
     padding: 1.5rem;
+    flex-direction: column;
+  }
+
+  .blog-post_info {
+    transform: none;
+  }
+
+  .blog-post_img {
+    min-width: 100%;
+    max-width: 100%;
+    /* transform: translate(0, -1rem); */
+    transform: none;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) and (min-width: 468px) {
   .blog-post {
     padding: 2.5rem;
     flex-direction: column;
