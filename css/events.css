@@ -126,6 +126,7 @@
   .blog-post {
     padding: 2.5rem;
     flex-direction: column;
+    padding: 1.5rem;
   }
   .blog-post_info {
     transform: none;
@@ -134,7 +135,8 @@
   .blog-post_img {
     min-width: 100%;
     max-width: 100%;
-    transform: translate(0, -1rem);
+    /* transform: translate(0, -1rem); */
+    transform: none;
   }
 
   .container {
